@@ -8,10 +8,11 @@
   var fedex = new fedexAPI({
     environment: 'live', // or live
     debug: true,
-    key: 'wtjfCCcZVvmrXfko',
-    password: 'jyPfOulkDf5LdjWRQYMASm9yr',
-    account_number: '260817302',
-    meter_number: '109918020',
+    // Enter the 4 credentials below
+    key: 'KEY',
+    password: 'PASSWORD',
+    account_number: 'ACCOUNT_NO',
+    meter_number: 'METER',
     imperial: false // set to false for metric
   });
   
