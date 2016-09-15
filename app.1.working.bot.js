@@ -4,7 +4,7 @@ const Bot = require('messenger-bot')
 
 let bot = new Bot({
   token: 'TTEAAYq4RTioFABADtZCM0kb7yoAsKoLB6UY9loaUMm1gANtM5TIcjhf03gWv5RZBWFqMF7FbwyAA2x9rZCTo0DNxFZCtIwY5RZA0i0hBXBMfKNfVcSveyCY6fXNk8720WC78OqTsG2STSxhwdYa0cXZAkLJpYlYnd3QF7ZCD6TVuLOwZDZD',
-  verify: 'FEDEX_TRACK_BOT'
+  verify: 'YOUr_SECRET_TOKEN'
 })
 
 bot.on('error', (err) => {
